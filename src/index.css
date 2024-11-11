@@ -1,0 +1,48 @@
+/**
+ * Copyright (c) ULOK Technologies. All rights reserved.
+ */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Light theme */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #dce0e5;
+  }
+  li:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 0.25rem;
+  }
+  .left-nav, .main-content {
+    background-color: #fff;
+  }
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #282c34;
+    color: white;
+  }
+  li:hover {
+    background-color: #50525f;
+    cursor: pointer;
+    border-radius: 0.25rem;
+  }
+  .left-nav, .main-content {
+    background-color: #181b34;
+  }
+}

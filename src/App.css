@@ -1,0 +1,37 @@
+/**
+ * Copyright (c) ULOK Technologies. All rights reserved.
+ */
+
+.app {
+  position: fixed;
+}
+
+.app-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0 2rem;
+}
+
+.app-name {
+  font-size: 1.25rem;
+  margin-top: 0.75rem;
+}
+.app-first-name {
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.app-content {
+  width: 100vw;
+  display: flex;
+}
+
+.main-content {
+  margin-left: 0.75rem;
+  margin-top: 3rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}

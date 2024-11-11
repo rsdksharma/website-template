@@ -1,0 +1,25 @@
+/**
+ * Copyright (c) ULOK Technologies. All rights reserved.
+ */
+.left-nav {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    box-sizing: border-box;
+    width: 15rem;
+    height: 100vh;
+    margin-top: 3rem;
+    padding-left: 1rem;
+    text-align: left;
+    border-radius: 0.5rem;
+  }
+  
+  .left-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .left-nav li {
+    margin: 0.5rem 0.1rem;
+    padding: 0.5rem 0rem 0.5rem 1rem;
+  }
