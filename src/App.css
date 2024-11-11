@@ -2,17 +2,16 @@
  * Copyright (c) ULOK Technologies. All rights reserved.
  */
 
-.app {
-  position: fixed;
+ .app {
+  position: absolute;
 }
 
 .app-header {
   width: 100vw;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  margin-left: 2rem;
+  padding-left: 2rem;
   min-height: 3rem;
+  position: fixed;
+  z-index: 1000;
 }
 
 .app-name {
@@ -27,6 +26,7 @@
 .app-content {
   width: 100vw;
   display: flex;
+  margin-top: 3rem;
 }
 
 .main-content {

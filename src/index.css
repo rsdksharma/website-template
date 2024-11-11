@@ -18,7 +18,7 @@ code {
 
 /* Light theme */
 @media (prefers-color-scheme: light) {
-  body, .expand-collapse-button {
+  body, .expand-collapse-button, .app-header {
     background-color: #dce0e5;
     color: #043964;
   }
@@ -37,7 +37,7 @@ code {
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
-  body, .expand-collapse-button {
+  body, .expand-collapse-button, .app-header {
     background-color: #393b43;
     color: #bcc0c3;
   }
