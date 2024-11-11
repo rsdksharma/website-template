@@ -8,12 +8,14 @@
     box-sizing: border-box;
     width: 15rem;
     height: 100vh;
-    margin-top: 3rem;
-    padding-left: 1rem;
-    text-align: left;
     border-radius: 0.5rem;
   }
-  
+
+  .nav-content {
+    padding-left: 1rem;
+    text-align: left;
+  }
+
   .left-nav ul {
     list-style-type: none;
     padding: 0;
@@ -22,4 +24,20 @@
   .left-nav li {
     margin: 0.5rem 0.1rem;
     padding: 0.5rem 0rem 0.5rem 1rem;
+  }
+
+  .expand-collapse-div {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .expand-collapse-button {
+    padding: 0.75rem 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    visibility: hidden;
+    cursor: pointer;
+  }
+
+  .left-nav:hover .expand-collapse-button {
+    visibility: visible;
   }

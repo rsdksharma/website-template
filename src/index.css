@@ -18,8 +18,9 @@ code {
 
 /* Light theme */
 @media (prefers-color-scheme: light) {
-  body {
+  body, .expand-collapse-button {
     background-color: #dce0e5;
+    color: #043964;
   }
   li:hover {
     background-color: #ddd;
@@ -29,13 +30,16 @@ code {
   .left-nav, .main-content {
     background-color: #fff;
   }
+  .expand-collapse-button:hover {
+    background-color: lightgrey;
+  }
 }
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #282c34;
-    color: white;
+  body, .expand-collapse-button {
+    background-color: #393b43;
+    color: #bcc0c3;
   }
   li:hover {
     background-color: #50525f;
@@ -43,6 +47,9 @@ code {
     border-radius: 0.25rem;
   }
   .left-nav, .main-content {
-    background-color: #181b34;
+    background-color: #282c34; 
+  }
+  .expand-collapse-button:hover {
+    background-color: #50525f;
   }
 }

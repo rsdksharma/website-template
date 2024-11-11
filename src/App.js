@@ -15,7 +15,7 @@ const  App = () => {
         <Header />
       </div>
       <div className='app-content'>
-        <div className="left-nav">
+        <div>
           <LeftNav />
         </div>
         <div className='main-content'>
